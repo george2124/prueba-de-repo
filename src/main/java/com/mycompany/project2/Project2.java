@@ -71,5 +71,7 @@ public class Project2 {
         listaMedicos.add(medico2);
         listaMedicos.add(medico3);
         listaMedicos.add(medico4);
+        
+        System.out.println("hola generando cambios patra el commmit");
     }
 }
