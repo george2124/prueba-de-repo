@@ -78,5 +78,14 @@ public class Project2 {
         System.out.println("Ingrese tu nombre: ");
         String nombre= teclado.nextLine();
         System.out.println("Hola programador "+ nombre);
+        Scanner teclado2 = new Scanner(System.in);
+        System.out.println("Ingrese un numero ");
+        int numero= teclado2.nextInt();
+        if(numero % 2==0){
+        System.out.println(numero+ " es par");
+        }
+        else{
+           System.out.println(numero+ " es impar");
+            }
     }
 }
