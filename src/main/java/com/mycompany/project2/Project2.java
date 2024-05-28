@@ -72,7 +72,11 @@ public class Project2 {
         listaMedicos.add(medico3);
         listaMedicos.add(medico4);
         
-        System.out.println("hola generando cambios patra el commmit");
-        System.out.println("saludo dos para probar el github");
+        System.out.println("hola generando cambios para el commmit");
+        System.out.println("saludo dos, para probar el github");
+        Scanner teclado = new Scanner(System.in);
+        System.out.println("Ingrese tu nombre: ");
+        String nombre= teclado.nextLine();
+        System.out.println("Hola programador "+ nombre);
     }
 }
